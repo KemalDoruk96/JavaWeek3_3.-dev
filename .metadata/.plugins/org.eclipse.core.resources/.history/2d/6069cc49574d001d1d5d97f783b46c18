@@ -1,0 +1,8 @@
+package dataBaseAccess;
+
+public interface ProductDuo {
+	
+	void Add();
+	
+
+}

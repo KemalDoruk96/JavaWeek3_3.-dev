@@ -1,0 +1,42 @@
+package business;
+
+import core.logging.Logger;
+import dataBaseAccess.HibernateDao;
+import dataBaseAccess.ProductDuo;
+import entites.Category;
+import entites.Course;
+import entites.Person;
+
+public class CategoryManager {
+	
+	private ProductDuo hibernateDao;
+	private Logger[] loggers;
+	
+	
+    
+	
+	public CategoryManager(ProductDuo hibernateDao,Logger[] loggers) {
+		this.hibernateDao=hibernateDao;
+		this.loggers=loggers;
+		
+		
+		
+	}
+	
+	public void Add(Course course,Category category,Person person,Logger ) {
+		if(category.getName() != "Programla"){
+			System.out.println("Bu kategori mevcut");
+		}
+		
+		hibernateDao.Add(course, category, person);
+		
+		for(Logger logger:loggers) {
+			
+			logger.log(category.getName());
+		}
+		
+		
+		
+	}
+
+}

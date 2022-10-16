@@ -1,0 +1,23 @@
+package business;
+
+import entites.Category;
+
+public class CategoryManager {
+	
+    
+	
+	public CategoryManager( ) {
+		
+		
+		
+	}
+	
+	public void Add(Category category) {
+		if(category.getName() != "Programla"){
+			System.out.println("Bu kategori mevcut değil");
+			
+         }
+		
+	}
+
+}

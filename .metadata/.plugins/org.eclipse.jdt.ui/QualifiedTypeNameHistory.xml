@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="dataBaseAccess.ProductDuo"/>
+    <fullyQualifiedTypeName name="core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="core.logging.FıleLogger"/>
+    <fullyQualifiedTypeName name="core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="entites.Category"/>
+    <fullyQualifiedTypeName name="business.CategoryManager"/>
+    <fullyQualifiedTypeName name="dataBaseAccess.HibernateDao"/>
+    <fullyQualifiedTypeName name="entites.Course"/>
+    <fullyQualifiedTypeName name="business.CourseManager"/>
+    <fullyQualifiedTypeName name="core.logging.Logger"/>
+    <fullyQualifiedTypeName name="entites.Person"/>
+    <fullyQualifiedTypeName name="business.PersonManager"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+package business;
+
+import entites.Person;
+
+public class PersonManager {
+	
+	public PersonManager() {
+		
+		
+	}
+	
+	public void add(Person person) {
+		
+		
+	}
+
+}

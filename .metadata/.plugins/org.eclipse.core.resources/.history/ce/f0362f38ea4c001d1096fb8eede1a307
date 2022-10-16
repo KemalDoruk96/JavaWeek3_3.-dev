@@ -1,0 +1,15 @@
+package business;
+
+public class Course {
+	
+	public Course() {
+		
+		
+	}
+	
+	public void add(Course course) {
+		
+		
+	}
+
+}
